@@ -91,7 +91,7 @@ if __name__ == '__main__':
         choice = menu()
         if choice == '1':
             authentication()
-            while True:
+            while True: #######################
                 choice = menu_todo()
                 if choice == '1':
                     add_todo()
@@ -102,7 +102,7 @@ if __name__ == '__main__':
                 elif choice == '4':
                     view_todo()
                 elif choice == 'q':
-                    break 
+                    break ###########################
         elif choice == '2':
             register()
         elif choice == '3':
